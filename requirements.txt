@@ -1,25 +1,44 @@
 # 📊 Customer Churn Analysis
 
-## 📌 Project Overview
-
-This project analyzes customer churn behavior using the Telco Customer Churn dataset.
-
-The goal is to identify factors influencing customer attrition and generate actionable business insights that can help improve customer retention and reduce churn.
-
----
-
-## 🛠️ Tech Stack
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Jupyter Notebook
-- Git & GitHub
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Cleaning-green)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![Status](https://img.shields.io/badge/Project-Completed-success)
 
 ---
 
-## 📂 Project Structure
+# 📌 Project Overview
+
+Customer churn is one of the most important business challenges in the telecommunications industry. Retaining existing customers is often more cost-effective than acquiring new ones.
+
+This project analyzes customer churn behavior using the **Telco Customer Churn Dataset** and identifies the key factors influencing customer attrition. The analysis provides actionable insights that can help businesses improve customer retention and reduce revenue loss.
+
+---
+
+# 🎯 Project Objectives
+
+* Understand customer churn patterns
+* Identify high-risk customer segments
+* Analyze contract types and churn behavior
+* Study the impact of tenure on retention
+* Generate business recommendations for reducing churn
+
+---
+
+# 🛠️ Tech Stack
+
+| Tool             | Purpose                    |
+| ---------------- | -------------------------- |
+| Python           | Data Analysis              |
+| Pandas           | Data Cleaning & Processing |
+| NumPy            | Numerical Operations       |
+| Matplotlib       | Data Visualization         |
+| Jupyter Notebook | Exploratory Data Analysis  |
+| Git & GitHub     | Version Control            |
+
+---
+
+# 📂 Project Structure
 
 ```text
 Customer_Churn_Analysis/
@@ -45,196 +64,11 @@ Customer_Churn_Analysis/
 
 ---
 
-## 📈 Dataset Information
-
-- Total Records: 7,043 Customers
-- Features: 21 Columns
-- Domain: Telecommunications
-- Target Variable: Churn (Yes / No)
-
----
-
-## 🧹 Data Cleaning
-
-The following preprocessing steps were performed:
-
-- Checked missing values
-- Converted TotalCharges from string to numeric
-- Handled invalid values using `errors='coerce'`
-- Removed rows with missing TotalCharges values
-- Verified data quality after cleaning
-
----
-
-## 📊 Key Findings
-
-### Overall Churn Rate
-
-- Customers Retained: 73.42%
-- Customers Churned: 26.58%
-
-**Insight:**
-Approximately 1 in every 4 customers leaves the company.
-
----
-
-### Contract Type Analysis
-
-| Contract Type | Churned Customers |
-|--------------|------------------:|
-| Month-to-month | 1655 |
-| One year | 166 |
-| Two year | 48 |
-
-**Insight:**
-Customers with month-to-month contracts have significantly higher churn rates compared to long-term contract customers.
-
----
-
-### Business Insights
-
-- Month-to-month customers are the highest-risk segment.
-- Long-term contracts improve retention significantly.
-- New customers show a greater tendency to churn.
-- Customer tenure strongly impacts retention.
-- Customer retention programs should target short-tenure users.
-
----
-
-# 📷 Visualizations
-
-## 1. Customer Churn Distribution
-
-![Customer Churn Distribution](./visuals/churn_distribution.png)
-
----
-
-## 2. Contract Type vs Churn
-
-![Contract Type vs Churn](./visuals/contract_vs_churn.png)
-
----
-
-## 3. Payment Method vs Churn
-
-![Payment Method vs Churn](./visuals/payment_method_churn.png)
-
----
-
-## 4. Internet Service vs Churn
-
-![Internet Service vs Churn](./visuals/internet_service_churn.png)
-
----
-
-## 5. Monthly Charges Distribution
-
-![Monthly Charges Distribution](./visuals/monthly_charges_distribution.png)
-
----
-
-## 6. Customer Tenure Distribution
-
-![Customer Tenure Distribution](./visuals/tenure_distribution.png)
-
----
-
-## 7. Senior Citizen vs Churn
-
-![Senior Citizen vs Churn](./visuals/senior_citizen_churn.png)
-
----
-
-## 🎯 Recommendations
-
-### 1. Encourage Long-Term Contracts
-
-Provide discounts and loyalty benefits for annual and multi-year subscriptions.
-
-### 2. Improve Customer Onboarding
-
-Customers with low tenure are more likely to churn. Strengthen onboarding and engagement efforts.
-
-### 3. Retention Campaigns
-
-Target month-to-month customers with personalized offers.
-
-### 4. Customer Experience Improvement
-
-Improve support quality and proactively engage at-risk customers.
-
-### 5. Monitor High-Risk Segments
-
-Build dashboards to continuously monitor churn indicators.
-
----
-
-## 🚀 How to Run
-
-Clone the repository:
-
-```bash
-git clone <repository-url>
-```
-
-Move into project directory:
-
-```bash
-cd Customer_Churn_Analysis
-```
-
-Create virtual environment:
-
-```bash
-python -m venv venv
-```
-
-Activate virtual environment:
-
-```bash
-venv\Scripts\activate
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Launch Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
-Open:
-
-```text
-notebooks/churn_analysis.ipynb
-```
-
----
-
-## 👩‍💻 Author
-
-**Yashika Garg**
-
-Computer Science Engineering (AI & ML)
-
-Chitkara University
-
----
-
-## ⭐ Project Status
-
-✅ Completed
-
-✅ Data Cleaning
-
-✅ Exploratory Data Analysis
-
-✅ Visualization
-
-✅ Business Insights
-
-✅ GitHub Ready
+# 📊 Dataset Information
+
+| Metric   | Value                |
+| -------- | -------------------- |
+| Dataset  | Telco Customer Churn |
+| Records  | 7,043 Customers      |
+| Features | 21 Columns           |
+| Domain   | Telecommunication    |
