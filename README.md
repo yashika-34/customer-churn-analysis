@@ -49,6 +49,47 @@ The project uses the Telco Customer Churn dataset from the telecommunications do
 **Dataset Source:** `data/Telco-Customer-Churn.csv`
 
 ---
+## Key Visualizations
+
+### 1. Churn Distribution
+
+![Churn Distribution](./visuals/churn_distribution.png)
+
+---
+
+### 2. Contract Type vs Churn
+
+![Contract Type vs Churn](./visuals/contract_vs_churn.png)
+
+---
+
+### 3. Payment Method vs Churn
+
+![Payment Method vs Churn](./visuals/payment_method_churn.png)
+
+---
+
+### 4. Internet Service vs Churn
+
+![Internet Service vs Churn](./visuals/internet_service_churn.png)
+
+---
+
+### 5. Monthly Charges Distribution
+
+![Monthly Charges Distribution](./visuals/monthly_charges_distribution.png)
+
+---
+
+### 6. Senior Citizen vs Churn
+
+![Senior Citizen vs Churn](./visuals/senior_citizen_churn.png)
+
+---
+
+### 7. Tenure Distribution
+
+![Tenure Distribution](./visuals/tenure_distribution.png)
 
 ## Repository Structure
 
