@@ -62,7 +62,7 @@ Data source: `data/Telco-Customer-Churn.csv`
 
 ### 1. Churn Distribution
 
-![Churn Distribution](../visuals/churn_distribution.png)
+![Churn Distribution](./visuals/churn_distribution.png)
 
 This chart shows the overall split between retained and churned customers.
 
