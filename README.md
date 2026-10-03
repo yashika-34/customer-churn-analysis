@@ -83,43 +83,43 @@ See `requirements.txt` for the full dependency list.
 
 ### Churn Distribution
 
-![Churn Distribution](visuals/churn_distribution.png)
+![Churn Distribution](./visuals/churn_distribution.png)
 
 This chart shows the overall proportion of churned versus retained customers, helping to establish the baseline problem.
 
 ### Contract Type vs Churn
 
-![Contract Type vs Churn](visuals/contract_vs_churn.png)
+![Contract Type vs Churn](./visuals/contract_vs_churn.png)
 
 This visual helps reveal how contract length relates to customer retention and churn risk.
 
 ### Internet Service and Churn
 
-![Internet Service vs Churn](visuals/internet_service_churn.png)
+![Internet Service vs Churn](./visuals/internet_service_churn.png)
 
 This chart highlights differences in churn based on the type of internet service customers use.
 
 ### Monthly Charges Distribution
 
-![Monthly Charges Distribution](visuals/monthly_charges_distribution.png)
+![Monthly Charges Distribution](./visuals/monthly_charges_distribution.png)
 
 This visualization shows how charges are distributed and whether higher bills align with churn risk.
 
 ### Payment Method and Churn
 
-![Payment Method vs Churn](visuals/payment_method_churn.png)
+![Payment Method vs Churn](./visuals/payment_method_churn.png)
 
 This chart explores whether specific payment methods correlate with churn and retention behavior.
 
 ### Senior Citizen Churn
 
-![Senior Citizen vs Churn](visuals/senior_citizen_churn.png)
+![Senior Citizen vs Churn](./visuals/senior_citizen_churn.png)
 
 This view helps assess whether senior citizen status is associated with different churn patterns.
 
 ### Tenure Distribution
 
-![Tenure Distribution](visuals/tenure_distribution.png)
+![Tenure Distribution](./visuals/tenure_distribution.png)
 
 This analysis provides insight into how customer lifetime and tenure relate to churn outcomes.
 
